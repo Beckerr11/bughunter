@@ -8,7 +8,7 @@ import pino from "pino";
 import { z } from "zod";
 
 const projectProfile = {
-  "brand": "DouglasDev",
+  "brand": "Becker",
   "name": "BugHunter",
   "slug": "bughunter",
   "tagline": "Triagem inteligente de bugs com SLA e contexto tecnico.",
@@ -56,7 +56,7 @@ const projectProfile = {
     }
   ]
 } as const;
-const platformBrand = "DouglasDev";
+const platformBrand = "Becker";
 
 type WorkItemStatus = "open" | "done";
 type Priority = "high" | "medium" | "low";
